@@ -1,0 +1,32 @@
+#while read line ; do  username=`echo $line | cut -d\~ -f 2 | cut -d\/ -f 1`;  reponame=`echo $line |rev | cut -d\/ -f 1 |rev`;  echo $line $username-$reponame; done < community.txt
+
+#git bzr import lp:~mixxxcontributors/mixxx/advanced_autodj mixxxcontributors-advanced_autodj
+#git bzr import lp:~shanx-shashank/mixxx/effects_parametricEq shanx-shashank-effects_parametricEq
+#git bzr import lp:~daschuer/mixxx/atomic-co daschuer-atomic-co
+git bzr import lp:~mixxxdevelopers/mixxx/atomic-co mixxxdevelopers-atomic-co
+git bzr import lp:~daschuer/mixxx/daschuers_trunk daschuer-daschuers_trunk
+git bzr import lp:~ulatekh/mixxx/auto-dj-crates ulatekh-auto-dj-crates
+git bzr import lp:~mixxxdevelopers/mixxx/trunk_translations mixxxdevelopers-trunk_translations
+git bzr import lp:~smstewart91/mixxx/advanced_autodj smstewart91-advanced_autodj
+git bzr import lp:~mixxxdevelopers/mixxx/engine-control-refactor mixxxdevelopers-engine-control-refactor
+git bzr import lp:~pasanen-tuukka/mixxx/ffmpeg-libav-fix pasanen-tuukka-ffmpeg-libav-fix
+git bzr import lp:~ulatekh/mixxx/mingw ulatekh-mingw
+git bzr import lp:~mixxxdevelopers/mixxx/release-1.11.x-translations mixxxdevelopers-release-1.11.x-translations
+git bzr import lp:~mixxxdevelopers/mixxx/library_features mixxxdevelopers-library_features
+git bzr import lp:~mixxxdevelopers/mixxx/manual mixxxdevelopers-manual
+git bzr import lp:~mixxxdevelopers/mixxx/manual-1.11.x mixxxdevelopers-manual-1.11.x
+git bzr import lp:~max-linke/mixxx/qsettings max-linke-qsettings
+git bzr import lp:~mixxxdevelopers/mixxx/website mixxxdevelopers-website
+git bzr import lp:~r0w4nj/mixxx/rowanstrunk r0w4nj-rowanstrunk
+git bzr import lp:~mixxxdevelopers/mixxx/features_key mixxxdevelopers-features_key
+git bzr import lp:~mixxxdevelopers/mixxx/varun_features_key_preferences mixxxdevelopers-varun_features_key_preferences
+git bzr import lp:~troyan3/mixxx/mixxx_tr0 troyan3-mixxx_tr0
+git bzr import lp:~uklotzde/mixxx/Vestax-VCI-300 uklotzde-Vestax-VCI-300
+git bzr import lp:~mixxxdevelopers/mixxx/waveform-dejerk mixxxdevelopers-waveform-dejerk
+git bzr import lp:~harshadura/mixxx/harshadura harshadura-harshadura
+git bzr import lp:~hustcalm/mixxx/non-blocking-database-access hustcalm-non-blocking-database-access
+git bzr import lp:~konarak/mixxx/fixes konarak-fixes
+git bzr import lp:~oberling/mixxx/feature_first-beat-in-bar oberling-feature_first-beat-in-bar
+git bzr import lp:~mixxxcontributors/mixxx/rmx2 mixxxcontributors-rmx2
+git bzr import lp:~daschuer/mixxx/features_banshee daschuer-features_banshee
+git bzr import lp:~kabelfrickler/mixxx/snu kabelfrickler-snu

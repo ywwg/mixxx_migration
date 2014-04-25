@@ -1,0 +1,48 @@
+notes:
+
+in progress:
+so first get all bzr branches
+
+make backup of repo pre rewrite
+
+then rewrite authors
+~/src/github/mixxx-conversion-stuff/rewrite-authors.sh
+
+set up remote for github (different for mixxx and community of course)
+git remote add origin git@github.com:mixxxdj/mixxx.git
+and
+git remote add origin git@github.com:mixxxdj/community.git
+
+then push to github  (git push --all)
+
+also git push --tags
+
+
+
+----------------
+updating from launchpad.  
+
+if you don't already have a branch for updating:
+git bzr import BRANCH myname-update
+git checkout myname-update
+otherwise:
+git checkout myname-update
+git bzr pull
+
+git checkout -b myname-update-rewrite
+~/src/github/mixxx-conversion-stuff/git-filter-branch-command-all.sh
+git checkout BRANCH-ALREADY-ON-GITHUB
+git merge myname-update-rewrite
+git branch -d myname-update-rewrite
+git push
+
+so like:
+
+git checkout trunk-update
+git bzr pull
+git checkout -b trunk-update-rewrite
+~/src/github/mixxx-conversion-stuff/git-filter-branch-command-all.sh
+git checkout master
+git merge trunk-update-rewrite
+git push
+git branch -d trunk-update-rewrite

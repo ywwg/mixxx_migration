@@ -1,0 +1,13 @@
+done git bzr import lp:mixxx/1.11 && git bzr import lp:mixxx/1.10 && git bzr import lp:mixxx/1.9 && git bzr import lp:mixxx/1.8
+echo 1
+git bzr import lp:~mixxxdevelopers/mixxx/atomic-co && git bzr import lp:~mixxxdevelopers/mixxx/trunk_translations && git bzr import lp:~mixxxdevelopers/mixxx/manual && git bzr import lp:~mixxxdevelopers/mixxx/manual-1.11.x && git bzr import lp:~mixxxdevelopers/mixxx/library_features
+echo 2
+git bzr import lp:~mixxxdevelopers/mixxx/release-1.11.x-translations && git bzr import lp:~mixxxdevelopers/mixxx/website && git bzr import lp:~mixxxdevelopers/mixxx/features_key && git bzr import lp:~mixxxdevelopers/mixxx/varun_features_key_preferences 
+echo 3
+git bzr import lp:~mixxxdevelopers/mixxx/waveform-dejerk && git bzr import lp:~mixxxdevelopers/mixxx/winlib-msvc10-x86-static && git bzr import lp:~mixxxdevelopers/mixxx/winlib-x86-msvc100 && git bzr import lp:~mixxxdevelopers/mixxx/buildserver && git bzr import lp:~mixxxdevelopers/mixxx/quit_being_a_jerk 
+echo 4
+git bzr import lp:~mixxxdevelopers/mixxx/cleanup-prefs-1.11 && git bzr import lp:~mixxxdevelopers/mixxx/translator-comments && git bzr import lp:~mixxxdevelopers/mixxx/features_effects && git bzr import lp:~mixxxdevelopers/mixxx/features_facelift && git bzr import lp:~mixxxdevelopers/mixxx/engine-control-refactor
+echo 5 
+git bzr import lp:~mixxxdevelopers/mixxx/osc_light_control && git bzr import lp:~mixxxdevelopers/mixxx/features_multi-track && git bzr import lp:~mixxxdevelopers/mixxx/mixxx-win32lib-msvc90-release && git bzr import lp:~mixxxdevelopers/mixxx/features_library_scanner && git bzr import lp:~mixxxdevelopers/mixxx/features_search 
+
+
